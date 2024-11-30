@@ -31,15 +31,12 @@ var boxer1=78.2;
 var boxer2=82.7;
 var totalMass=(boxer1+boxer2);
 System.out.println("Общий вес боксеров "+(totalMass)+" кг.");
-var difference=(boxer1-boxer2);
+var difference=(boxer2-boxer1);
 System.out.println("Разница между боксерами "+(difference)+" кг.");
         System.out.println("Задача №7");
-var remainder= (boxer1-boxer2)%totalMass;
+var remainder= boxer2%boxer1;
         System.out.println("Разница между боксерами "+remainder+" кг.");
-//Все равно получил отрицательное значение, не понимаю как это решить((
-// Могу боксеров местами поменять и получу сразу положительное число, но это же будет расходится с условиями!?))
-//Если можно подскажите примерное направление куда думать)))
-System.out.println("Задача №8");
+        System.out.println("Задача №8");
 var totalTime = 640;
 var oneWorker = 8;
 var quantityWorker = (totalTime/oneWorker);
